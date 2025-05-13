@@ -7,7 +7,7 @@ app = FastAPI(title="IA Project Hub")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # O especifica ["http://localhost:3000"]
+    allow_origins=["http://localhost:5173"],  # React con Vite
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
