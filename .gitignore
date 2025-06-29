@@ -65,6 +65,7 @@ cover/
 *.mo
 *.pot
 
+# Ignorar modelos grandes
 app/models/nlp/*.zip
 app/models/nlp/*.safetensors
 
