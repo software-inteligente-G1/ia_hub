@@ -1,6 +1,6 @@
 # app/main.py
 from fastapi import FastAPI
-from app.routers import genetic, naive_bayes, energy_router
+from app.routers import genetic, naive_bayes, energy_router, mental_health
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="IA Project Hub")
@@ -20,3 +20,5 @@ app.include_router(genetic.router, prefix="/genetic",
                    tags=["Genetic Algorithm"])
 app.include_router(energy_router.router, prefix="/energy",
                    tags=["Energy Prediction"])
+app.include_router(mental_health.router, prefix="/mental",
+                   tags=["Mental Health NLP"])

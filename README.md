@@ -22,5 +22,3 @@ Intelligent Software Project
 └── README.md
 
 ```
-
-Soy
