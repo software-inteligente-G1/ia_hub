@@ -68,7 +68,10 @@ cover/
 # Ignorar modelos grandes
 app/models/nlp/*.zip
 app/models/nlp/*.safetensors
-
+*.safetensors
+*.zip
+*.bin
+*.pt
 
 # Django stuff:
 *.log
