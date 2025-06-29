@@ -1,0 +1,9 @@
+- Descomprimir el archivo t5_model_final.zip
+- Archivos que contiene:
+  - added_tokens.json
+  - config.json
+  - generation_config.json
+  - model.safetensors
+  - special_tokens_map.json
+  - spiece.model
+  - tokenizer_config.json
