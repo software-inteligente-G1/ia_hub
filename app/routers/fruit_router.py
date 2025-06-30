@@ -1,6 +1,6 @@
 from fastapi import APIRouter, File, UploadFile, HTTPException
 from PIL import Image
-from app.services.image_classifier_service import predict_resnet_image
+from app.services.fruit_service import predict_resnet_image
 import io
 
 router = APIRouter()
